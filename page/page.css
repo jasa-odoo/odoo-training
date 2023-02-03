@@ -1,0 +1,106 @@
+body{
+    background-color: darkcyan;
+}
+
+.ho:hover {
+    color:brown;
+    cursor: pointer;
+}
+
+.head {
+    color: rgb(7, 50, 131);
+    display: flex;
+    justify-content: center;
+}
+
+.prof{
+    width: 100%;
+    text-align: center;
+}
+
+.stext {
+    font-size: 1.5rem;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.picture {
+    display: flex;
+    border: black 1px solid;
+    width: 10%;
+    height: 20%;
+    float: right;
+    margin-right: 100px;
+    position: relative;
+    top: 10px;
+    right: 20%;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    font-size: 1.5rem;
+    margin-left: 40px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.skill {
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+
+.skill li {
+    display: inline-block;
+    margin: 15px;
+}
+
+.bt1 {
+    display: inline-block;
+    color: green;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    border: green solid 2px;
+    background-color: white;
+}
+
+.bt2 {
+    display: inline-block;
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    border: red solid 2px;
+    background-color: white;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    text-align: center;
+}
+
+.bt1:hover {
+    cursor: pointer;
+    color: white;
+    background-color: green;
+}
+
+.bt2:hover {
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+
+select{
+    background-color: darkcyan;
+    border: solid black 2px;
+    border-radius: 10%;
+}
